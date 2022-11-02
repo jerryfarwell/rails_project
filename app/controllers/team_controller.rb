@@ -1,4 +1,5 @@
 class TeamController < ApplicationController
-  def home
+  def show
+    @test = params[:test]
   end
 end
