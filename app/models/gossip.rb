@@ -1,3 +1,3 @@
 class Gossip < ApplicationRecord
-    belongs_to :User2
+    belongs_to :user
 end
